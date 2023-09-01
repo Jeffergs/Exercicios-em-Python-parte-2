@@ -6,7 +6,7 @@ anos = int(input("Idade (em anos): ")) # Quantos anos de vida a pessoa tem
 meses = int(input("Idade (em meses): ")) # Quantos meses (a partir do último aniversário) a pessoa tem
 dias = int(input("Idade (em dias): ")) # Quantos dias (a partir do último aniversário) a pessoa tem
 
-dias_vividos = (anos * 365) + (meses * 30)# + dias
+dias_vividos = (anos * 365) + (meses * 30) + dias
 
 print(f"Você está vivo a {dias_vividos} dias ")
 
