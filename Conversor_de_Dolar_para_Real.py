@@ -1,9 +1,8 @@
 # Tendo como base o valor da cotação do dólar (em reais) do dia, faça a conversão de um valor em dólares para reais
 
-real = 4.87  #Cotação do dolar em real no dia 29/08/23
-
+valor_cotacao = float(input("Digite o valor da cotação do dólar: "
 dolar = float(input("Quantos dolares você tem: "))
 
-total = dolar * real
+total = dolar * valor_cotacao
 
-print(f"Você tem {total:.2f} reais")
+print(f"USD{valor_dolares:.2f} convertido para reais é R$ {total}")
